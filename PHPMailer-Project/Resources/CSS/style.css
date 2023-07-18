@@ -1,0 +1,314 @@
+body {
+  background-color: #1d1d20;
+  margin: 0;
+}
+#contact-form {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.lbl {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+@media (min-width: 0px) and (max-width: 1060px) {
+
+  input[type="text"] {
+    width: 44em;
+    height: 2.5em;
+    padding: 7px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+  }
+  textarea {
+    width: 44em;
+    padding: 7px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+  }
+  input[type="email"] {
+    width: 44em;
+    height: 2.5em;
+    padding: 7px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+  }
+  #but {
+    padding: 8px 16px;
+    background-color: #7f5af0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  #but:hover {
+    background-color: #2cb67d;
+  }
+ 
+  nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: "JetBrains Mono", monospace;
+  }
+  
+  h5 {
+    color: white;
+    font-size: 2vw;
+  }
+
+  .h1W {
+    color: #7f5af0;
+    font-size: 3vw;
+    margin: 0;
+  }
+ 
+  .contenedor6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1vw;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+  }
+ 
+
+  .block6 {
+    margin-top: 5em;
+    padding-bottom: 50px;
+    font-family: "JetBrains Mono", monospace;
+    text-align: center;
+    color: #7f5af0;
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+
+}
+
+@media (min-width: 1061px) and (max-width: 2200px) {
+
+  input[type="text"] {
+    width: 44em;
+    height: 2.5em;
+    padding: 12px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+  }
+  textarea {
+    width: 44em;
+    padding: 12px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+  }
+  input[type="email"] {
+    width: 44em;
+    height: 2.5em;
+    padding: 12px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+  }
+
+  #but {
+    padding: 10px 20px;
+    background-color: #7f5af0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+  #but:hover {
+    background-color: #2cb67d;
+  }
+  
+  nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: -100px;
+    font-family: "JetBrains Mono", monospace;
+  }
+ 
+  h5 {
+    color: white;
+    font-size: 1.2vw;
+  }
+  .h1W {
+    color: #7f5af0;
+    font-size: 3vw;
+    margin: 0;
+  }
+  .contenedor6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.8vw;
+    color: #ffffff;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    margin-bottom: 40px;
+  }
+  
+  .block6 {
+    margin-top: 5em;
+    padding-bottom: 50px;
+    font-family: "JetBrains Mono", monospace;
+    text-align: center;
+    color: #7f5af0;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+
+}
+
+@media (min-width: 2201px) {
+
+  input[type="text"] {
+    width: 44em;
+    height: 2.5em;
+    padding: 12px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+  }
+  textarea {
+    width: 44em;
+    padding: 12px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+  }
+  input[type="email"] {
+    width: 44em;
+    height: 2.5em;
+    padding: 12px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+  }
+  #but {
+    font-size: 1em;
+    text-align: center;
+    height: 2em;
+    width: 6em;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border-radius: 3px;
+    cursor: pointer;
+
+    padding: 10px 20px;
+    background-color: #7f5af0;
+    color: white;
+
+  }
+  #but {
+    padding: 10px 20px;
+    background-color: #7f5af0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  #but:hover {
+    background-color: #2cb67d;
+  }
+  
+  nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: -100px;
+    font-family: "JetBrains Mono", monospace;
+  }
+
+  h5 {
+    color: white;
+    font-size: 1.2vw;
+  }
+
+  .h1W {
+    color: #7f5af0;
+    font-size: 3vw;
+    margin: 0;
+  }
+
+  .contenedor6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.8vw;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    padding-bottom: 5em;
+  }
+
+  .block6 {
+    margin-top: 5em;
+    padding-bottom: 50px;
+    font-family: "JetBrains Mono", monospace;
+    text-align: center;
+    color: #7f5af0;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+}
