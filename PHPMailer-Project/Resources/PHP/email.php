@@ -21,7 +21,7 @@ try {
         $mail->SMTPAuth = true;
 
         $mail->Username = ''; //Your Mail
-        $mail->Password = ''; //Your Key
+        $mail->Password = ''; //Your App Password
 
         $mail->Port = 465;
         $mail->SMTPSecure = 'ssl';
